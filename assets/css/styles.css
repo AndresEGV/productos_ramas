@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;900&display=swap");
 html {
-  background-color: rgb(54, 54, 158);
+  background-color: #0071b7;
 }
 
 body {
@@ -43,7 +43,7 @@ img {
 }
 
 .producto__contenido {
-  padding: 1rem;
+  padding: 0.65rem;
 }
 
 .producto__nombre {
@@ -60,10 +60,16 @@ img {
 }
 
 .producto__boton {
-  background-color: blue;
+  background-color: #0071b7;
   width: 100%;
-  padding: 0.5rem 0;
+  padding: 0.85rem 0;
   text-align: center;
   color: white;
   cursor: pointer;
+  border: 0;
+  font-size: 1rem;
+}
+
+.producto__boton:hover {
+  background-color: #014570;
 }
